@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm start)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npm --version:*)",
+      "Bash(node --version:*)",
+      "Bash(dir \"C:\\\\Users\\\\Aidan\\\\Downloads\\\\cherry\")",
+      "Bash(npm config:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
