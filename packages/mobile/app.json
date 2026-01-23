@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "BELVRR",
-    "slug": "belvrr",
+    "slug": "belvrr-ios",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,8 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.huddler.belvrr",
-      "buildNumber": "1",
+      "bundleIdentifier": "com.huddler.belvrr.mobile",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -32,15 +31,19 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "your-eas-project-id"
-      }
-    },
     "plugins": [
       "expo-router",
       "expo-asset",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b68b12f1-b396-4472-a6c8-169e5f989d80"
+      }
+    },
+    "owner": "aiocappo"
   }
 }
